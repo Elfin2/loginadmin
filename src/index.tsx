@@ -1,15 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Dashboard from './views/Dashboard';
 import reportWebVitals from './reportWebVitals';
+import SignIn from './views/SignIn';
+import SignInl from './views/SignInl'
+import UserProfile from './views/UserProfile'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <SignIn/> */}
+    {/* <SignInl/> */}
+    {/* <Dashboard/> */}
+    <UserProfile/>
   </React.StrictMode>
 );
 
